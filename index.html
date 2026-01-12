@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Travel Agency</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--Google fonts-->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header>
+      <!--Navbar-->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <div class="container">
+          <!--The Logo-->
+          <a
+            class="navbar-brand logo ms-4"
+            href="#"
+            style="font-size: 3rem"
+            >TEMMA</a
+          >
+          <!--The toggler button-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon"
+            ></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <!--The Unordered list and nav-items-->
+            <ul
+              class="navbar-nav me-4 mb-2 mb-lg-0"
+            >
+              <!--Dropdown and it's list-items-->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <!--dropdown list-items-->
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Action</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Another action</a
+                    >
+                  </li>
+                  <li>
+                    <hr
+                      class="dropdown-divider"
+                    />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!--Home link-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <!--Destinations link-->
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Destinations</a
+                >
+              </li>
+              <!--Tour list-->
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Tours</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <!--Navbar buttons-->
+            <!--Book with Temma button-->
+            <a
+              href="#"
+              class="btn btn-lg bg-dark text-light"
+              >Book with TEMMA</a
+            >
+            <!--Become an Advisor button-->
+            <a
+              href="#"
+              class="btn btn-lg btn-outline-dark ms-2"
+              >BECOME AN ADVISOR</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Hero section-->
+    <section class="hero">
+      <!--The hero container-->
+      <div class="container-fluid con">
+        <!--The background video-->
+        <!-- <video autoplay loop muted class="bg">
+          <source src="./src/vid/vid.mp4" />
+        </video> -->
+       
+      </div>
+      <!--The overlay div-->
+      <div class="overlay"></div>
+      <!--THe hero Row class that contains the text col-->
+      <div
+        class="row temma d-flex justify-content-center align-items-center"
+      >
+        <!--Text column-->
+        <div class="col m text-center">
+          <!--THe hero title header-->
+          <h3 class="text text-center mb-lg-5">
+            Unforgetable trips, Crafted by experts
+          </h3>
+          <!--The hero paragraph-->
+          <p class="text-center mb-lg-5">
+            Unlock personalized planning and
+            insider access for your next trip, at
+            the same rates as booking direct
+          </p>
+          <!--Hero button-->
+          <a
+            href="#"
+            class="btn ps-5 pe-5 p-3 t-btn w-40 text-dark"
+            >BOOK WITH TEMMA</a
+          >
+        </div>
+        <!--The hero Travel options container-->
+        <div class="container count">
+          <!--Row class-->
+          <div
+            class="row align-items-center justify-content-center my-2"
+          >
+            <!--First column-->
+            <div
+              class="col-8 mb-2 text-center blur p-lg-4 col-lg-4"
+            >
+              Global travel partners with VIP
+              perks
+            </div>
+            <!--Second column-->
+            <div
+              class="col-8 mb-2 blur text-center p-lg-4 col-lg-4"
+            >
+              $ Travel booked worldwide
+            </div>
+            <!--Third or last column-->
+            <div
+              class="col-8 blur text-center p-lg-4 col-lg-4"
+            >
+              Countries served by our expert
+              advisors
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About US -->
+   
+     <section class="about d-flex justify-content-center text-center">
+        <div class="container my-5 ">
+      <div class="row text-center d-flex justify-content-center">
+        <div class="col-4 text-center col-md-10">   <h1 class="menu-sub"> About Temma</h1></div>
+        <div class="col-10 text-center col-md-6">
+           <p class="menu-sub">Temma is the modern travel agency, powering a new generation of travel entrepreneurs. Our all-in-one platform provides advisors with the tools to grow their businesses and connects travelers to insider trip planning and VIP perks worldwide.</p>
+        </div>
+      </div> 
+        <a
+              href="#"
+              class="btn btn-lg bg-dark text-light"
+              >Book with TEMMA</a
+            >
+            <!--Become an Advisor button-->
+            <a
+              href="#"
+              class="btn btn-lg btn-outline-dark ms-2"
+              >BECOME AN ADVISOR</a
+            >
+
+     </div>
+      
+     </section>
+    <!--Menu section-->
+    <section class="menu">
+      <!--Menu row class that compromises of the menu Header,Paragraph & button-->
+      <div
+        class="row my-5 justify-content-center"
+      >
+        <!-- <marquee behavior="" direction="last">
+          <div class="d-flex">
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+              Necessitatibus, pariatur.
+            </p>
+          </div>
+        </marquee> -->
+        <!--Header column-->
+        <div class="col-10 col-lg-5 text-center">
+          <!-- menu header-->
+          <h1 class="text-center menu-head">
+            Next-level travel powered by tech and
+            the human touch
+          </h1>
+          <!--menu paragraph-->
+          <p class="text-center menu-sub">
+            Our travel advisors have the tools,
+            insights, and connections to build
+            your dream vacation. Get VIP
+            recommendations and perks, a seamless
+            booking experience, and maybe a cool
+            new friend along the way.
+          </p>
+          <!--menu button-->
+          <a
+            href="#"
+            class="btn text-center bg-dark p-3 m-btn text-white"
+            >Book with TEMMA</a
+          >
+        </div>
+      </div>
+      <!--The Menu cards container-->
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center"
+        >
+          <!--header-->
+          <h2 class="logo mb-4">
+            Book your next trip by a Temma Advisor
+          </h2>
+          <!--first card col-->
+          <div
+            class="col-10 mb-4 mb-lg-0 col-lg-4"
+          >
+            <!--First card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/man-hiking-in-mountains.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <!--card body-->
+              <div class="card-body ps-0">
+                <!--card title-->
+                <h5 class="card-title">
+                  Honeymoons
+                </h5>
+                <!--card paragraph-->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  You've already planned the
+                  wedding. Why add anything else
+                  to your plate?
+                </p>
+                <h3 class="menu-sub">$350</h3>
+                <!--card button-->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--second card col-->
+          <div
+            class="col-10 mb-4 mb-lg-0 col-lg-4"
+          >
+            <!--second card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/a-small-green-bird-sits-on-thin-branch-in-a-green-tree.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!--card body-->
+              </div>
+              <div class="card-body ps-0">
+                <!--Card title-->
+                <h5 class="card-title">
+                  Cruises
+                </h5>
+                <!-- card paragraph -->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  Temma Advisors matchmake every
+                  sea-bound passenger to the right
+                  ship, whether it's your first or
+                  fiftieth time on board.
+                </p>
+                <h3 class="menu-sub">$250</h3>
+                <!-- card button -->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Last card column -->
+          <div class="col-10 col-lg-4">
+            <!--second card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/livin-on-the-ledge.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <!--card body-->
+              <div class="card-body ps-0">
+                <!--Card title-->
+                <h5 class="card-title">Safari</h5>
+                <!-- card paragraph -->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  From leopard sightings to
+                  gorilla trekking, safaris are
+                  where bucket lists meet reality.
+                  Let Fora turn your wildest
+                  dreams into wild encounters.
+                </p>
+                <h3 class="menu-sub">$450</h3>
+                <!-- card button -->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center d-flex g-5 my-5 align-items-center"
+        >
+          <div
+            class="col-10 align-items-center col-lg-5"
+          >
+            <h1 class="menu-sub">
+              Why work with a Temma Advisor
+            </h1>
+
+            <ul class="mt-5">
+              <hr />
+              <li class="menu-list">
+                Customize travel planning for your
+                cycle
+              </li>
+              <hr />
+              <li class="menu-list">
+                Expert advice with personalized
+                recommendations
+              </li>
+              <hr />
+              <li class="menu-list free">
+                Free upgrades, spa credits and
+                more--we've got you
+              </li>
+              <hr />
+            </ul>
+          </div>
+          <div class="col-10 col-lg-7">
+            <div class="img-box">
+              <img
+                src="./src/images/a-small-green-bird-sits-on-thin-branch-in-a-green-tree.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div 
+          class="row justify-content-center text-center exp d-flex g-2 my-5 align-items-center"
+        >
+        <div class="col-4 col-md-2">
+          <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+            <i class="fa-solid fa-hotel" style="font-size: 40px;"></i>
+            </div>
+            <div class="col text-start col-md-8">
+              <h2 class="menu-sub fs-900" >5990</h2>
+              <p class="menu-sub">Hotels with Perks</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-2">
+ <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+              
+              <i class="fa-solid  text-dark fa-house" style="font-size: 40px;"></i>
+            </div>
+            <div class="col ms-0 text-start col-md-8">
+              <h2 class="menu-sub fs-900">65</h2>
+              <p class="menu-sub">Villa Partners</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-2">
+ <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+              <i class="fa-solid text-dark fa-hotel" style="font-size: 40px;"></i>
+            </div>
+            <div class="col ms-0 text-start col-md-8">
+              <h2 class="menu-sub fs-900">61</h2>
+              <p class="menu-sub">Cruise lines</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3">
+ <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+                <i class="fa-solid fa-earth-africa" style="font-size: 40px;"></i>
+            </div>
+            <div class="col ms-0 text-start col-md-8">
+              <h2 class="menu-sub  fs-900">17985</h2>
+              <p class="menu-sub">Experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-3 ">
+ <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+<i class="fa-regular fa-lightbulb" style="font-size: 40px;"></i>
+            </div>
+            <div class="col col-md-8 text-start ms-0">
+              <h2 class="menu-sub fs-900">253</h2>
+              <p class="menu-sub">All-Inclusives</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-4 col-md-3">
+ <div class="row g-0 d-flex align-items-center">
+            <div class="col">
+           <i class="fa-regular fa-message" style="font-size: 40px;"></i>
+            </div>
+            <div class="col">
+              <h2 class="menu-sub fs-900">91</h2>
+              <p class="menu-sub">Local Partners</p>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+       <div
+          class="row justify-content-center d-flex g-5 my-5 align-items-center"
+        >
+          <div
+            class="col-10 align-items-center col-lg-5"
+          >
+            <h1 class="menu-sub">
+              Why work with a Temma Advisor
+            </h1>
+
+            <p class="menu-sub">Jan 5,2026 . Travel Inspiration</p>
+            <div class="row d-flex ">
+              <div class="col round me-0 p-0 col-me-2 ">
+                <div class="round-img"></div>
+              </div>
+              <div class="col col-md-9">
+                <h4>Curated by</h4>
+                <p>Jaine Yu</p>
+              </div>
+            </div>
+            <p class="menu-sub mt-3">
+              Visiting the Galápagos Islands feels less like a vacation 
+              and more like observing a living laboratory. Named 
+              for the giant tortoises, this remote archipelago is 
+              filled with wildlife and volcanic landscapes, 
+              where blue-footed...
+            </p>
+             <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >Read MORE</a
+                >
+          </div>
+          <div class="col-10 col-lg-7">
+            <div class="im">
+ <div class="img-box">
+              <img
+                src="./src/images/istockphoto-2150678874-1024x1024.jpg"
+                alt=""
+              />
+            </div>
+            </div>
+           
+          </div>
+        </div>
+         <div
+          class="row justify-content-center align-items-center"
+        >
+        
+          <!--first card col-->
+          <div
+            class="col-10 mb-4 mb-lg-0 col-lg-4"
+          >
+            <!--First card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/istockphoto-1440399157-1024x1024.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <!--card body-->
+              <div class="card-body ps-0">
+                <!--card title-->
+                <h5 class="card-title">
+                  Honeymoons
+                </h5>
+                <!--card paragraph-->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  You've already planned the
+                  wedding. Why add anything else
+                  to your plate?
+                </p>
+                <!--card button-->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--second card col-->
+          <div
+            class="col-10 mb-4 mb-lg-0 col-lg-4"
+          >
+            <!--second card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/istockphoto-1465916031-1024x1024.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!--card body-->
+              </div>
+              <div class="card-body ps-0">
+                <!--Card title-->
+                <h5 class="card-title">
+                  Cruises
+                </h5>
+                <!-- card paragraph -->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  Temma Advisors matchmake every
+                  sea-bound passenger to the right
+                  ship, whether it's your first or
+                  fiftieth time on board.
+                </p>
+                <!-- card button -->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Last card column -->
+          <div class="col-10 col-lg-4">
+            <!--second card-->
+            <div
+              class="card border border-0"
+              style="width: 100%"
+            >
+              <!--card image-->
+              <div class="img-house">
+                <img
+                  src="./src/images/istockphoto-1526986072-1024x1024.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <!--card body-->
+              <div class="card-body ps-0">
+                <!--Card title-->
+                <h5 class="card-title">Safari</h5>
+                <!-- card paragraph -->
+                <p
+                  class="card-text menu-sub mt-3"
+                >
+                  From leopard sightings to
+                  gorilla trekking, safaris are
+                  where bucket lists meet reality.
+                  Let Fora turn your wildest
+                  dreams into wild encounters.
+                </p>
+                <!-- card button -->
+                <a
+                  href="#"
+                  class="btn p-3 btn-outline-dark"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--Contact section-->
+    <section class="contact p-3" id="contact">
+      <div class="container my-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="menu-head">Get in Touch</h1>
+          </div>
+          <div class="col col-md-10 text-center">
+<div class="row my-5 justify-content-center align-items-center d-flex">
+  <div class="col-10 col-md-3">
+<i class="fa-brands fa-medium"style="font-size: 40px;" ></i>
+    <h4 class="menu-sub mt-3">Press</h4>
+    <p class="menu-sub">For all press and interview requests, please email press@foratravel.com.</p>
+  </div>
+  <div class="col-10 col-md-3">
+    <i class="fa-regular fa-handshake" style="font-size: 40px;" ></i>
+
+   
+    <h4 class="menu-sub mt-3">Partners</h4>
+    <p class="menu-sub">f you're a supplier interested in partnering with us, please visit our partners page.</p>
+  </div>
+  <div class="col-10 col-md-3">
+       <i class="fa-regular fa-clock"style="font-size: 40px;" ></i>
+    <h4 class="menu-sub mt-3">Traveler Feedback</h4>
+    <p class="menu-sub">We'd love to hear your thoughts. Please share any trip or website feedback here.</p>
+  </div>
+  
+</div>
+          </div>
+        </div>
+        <form class="row g-2 d-flex justify-content-center">
+  <div class="col-md-4">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-4">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="col-6 col-md-5 ">
+    <label for="inputAddress" class="form-label">From:</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+ 
+  <div class=" col-6 col-md-5">
+    <label for="inputState" class="form-label">Destination:</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>Abuja</option>
+      <option>Lagos</option>
+      <option>Enugu</option>
+      <option>Port-Harcourt</option>
+      <option>Jos</option>
+      <option>Kano</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="textarea" class="form-label">Message:</label>
+    <textarea name="textarea" id="textarea" cols="80" rows="10"></textarea>
+  </div>
+  
+  <div class="col-12 text-center">
+    <button type="submit" class="btn btn-lg ps-5  pe-5 btn-primary">Send</button>
+  </div>
+</form>
+      </div>
+    </section>
+    <!--Footer-->
+<section class="footer">
+<div class="container jumbutron bg-light">
+  <hr>
+  <div class="row my-5">
+    <div class="col text-center menu-sub">
+      <a
+            class="navbar-brand logo ms-4"
+            href="#"
+            style="font-size: 3rem"
+            >TEMMA</a
+          >
+    </div>
+    <div class="col-6 col-md-2 menu-sub">
+      <h4>For Travel Advisors</h4>
+      <ul>
+        <li>Become an Advisor</li>
+        <li>Travel Advisor Resources
+</li>
+        <li>Travel Advisor FAQ
+</li>
+        <li>Community Stories
+</li>
+        <li>Advisor Portal</li>
+       
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 menu-sub">
+         <h4>For Travel Advisors</h4>
+      <ul>
+        <li>2025 Hot List</li>
+        <li>Why Book with Temma
+</li>
+        <li>Groups
+</li>
+        <li>Travel Destinations
+</li>
+        <li>Reviews</li>
+       
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 menu-sub">
+         <h4>Our Company</h4>
+      <ul>
+        <li>About us</li>
+        <li>The Journal
+</li>
+        <li>Advisor Resources 
+</li>
+        <li>Newrooms
+</li>
+        <li>Press</li>
+       
+      </ul>
+    </div>
+    <div class="col-6 col-md-2 menu-sub">
+         <h4>NewsLetter</h4>
+      <ul>
+        <li>Stay in-the-know with travel recs, hotel features & travel advisor news.</li>
+        <li>Travel Advisor Resources
+</li>
+      
+       
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row text-center">
+    <div class="col-10 col-md-6">
+      <p>© 2026 Temma Travel, Inc. All Rights Reserved</p>
+    </div>
+    <div class="col-10 col-md-6">
+      <ul class="d-flex g-5">
+        <li>
+Privacy Policy</li>
+        <li class="ms-3 me-3">TERMS OF USE</li>
+        <li>Site Overview</li>
+      </ul>
+    </div>
+    <div class="col-10 col-md-6">
+      <p class="menu-sub">
+        Fora Travel, Inc. is registered with the following state licenses:
+California - Seller of Travel Registration No. 2151995-50
+Florida - Seller of Travel Registration No. ST43973
+Washington - Seller of Travel Unified Business ID (UBI) # 605329242
+British Columbia - CPBC License No. 88694
+Ontario - TICO Registration No. 50027942
+      </p>
+    </div>
+    <div class="col-10 ms-0 col-md-6">
+  <i class="bi bi-github"></i>
+  <i class=" ms-3 bi bi-instagram"></i>
+  <i class=" ms-3 bi bi-facebook"></i>
+  <i class="ms-3 bi bi-youtube"></i>
+  <i class=" ms-3 bi bi-linkedin"></i>
+  <i class=" ms-3 bi bi-pinterest"></i>
+  <i class="ms-3 bi bi-twitter-x"></i>
+  <i class="ms-3 bi bi-spotify"></i>
+    </div>
+  </div>
+</div>
+</section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
